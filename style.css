@@ -368,6 +368,9 @@ footer {
     font-weight: bold;
     font-size: 13px;
   }
+  .couple-section .couple h3.pink, .couple-section .couple h3.green{
+    font-size: 32px;
+  }
 }
 @media screen and (max-width: 396px) {
   .couple-section .couple p {
