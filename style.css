@@ -367,7 +367,6 @@ footer {
 }
 @media screen and (max-width: 440px) {
   .couple-section .couple p {
-    text-align: justify;
     font-weight: bold;
     font-size: 13px;
   }
@@ -378,7 +377,6 @@ footer {
 }
 @media screen and (max-width: 396px) {
   .couple-section .couple p {
-    text-align: justify;
     font-weight: bold;
     font-size: 11px;
   }
