@@ -8,8 +8,8 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
@@ -150,8 +150,8 @@ footer {
   animation-delay: 1s;
   cursor: pointer;
 }
-.home-section .home-content span a{
-    color: #fff;
+.home-section .home-content span a {
+  color: #fff;
 }
 /* couple section  */
 .couple-section {
@@ -159,10 +159,10 @@ footer {
 }
 .couple-section .dada {
   position: relative;
-  background: url("./image/susama\ \(1\).JPG");
+  /* background: url("./image/susama\ \(1\).JPG");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   z-index: 1;
 }
 .couple-section .boudi::after,
@@ -176,12 +176,18 @@ footer {
   background: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
-.couple-section .boudi {
-  position: relative;
-  background: url("./image/susama\ \(2\).JPG");
+.couple-section .back-img {
+  background: url("./image/back.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.couple-section .boudi {
+  position: relative;
+  /* background: url("./image/back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
   z-index: 1;
 }
 .couple-section .couple {
@@ -220,7 +226,6 @@ footer {
 }
 
 .couple-section .couple p {
-  text-align: justify;
   font-weight: bold;
   font-size: 15px;
   color: #ffffff;
